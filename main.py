@@ -19,4 +19,5 @@ def main():
     except TypeError:
         print("ERROR: please enter size in gb for hard-drive.")
 
-main()
+if __name__ == "__main__":
+    main()
