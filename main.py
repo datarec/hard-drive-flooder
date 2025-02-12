@@ -1,4 +1,7 @@
-  GNU nano 8.2                                                               test.py                                                                        import time
+# Simple script to generate junk data
+# ovh.feminine216@passinbox.com
+
+import time
 import math
 
 
