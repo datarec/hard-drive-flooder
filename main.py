@@ -4,14 +4,13 @@
 import time
 import math
 
-
 def main():
     try:
         byte_size = int(input("enter hard drive space: "))
         exponent = math.exp2(30) * byte_size
         confirm_attack = input("press y/n to confirm: ")
         if (confirm_attack == "y"):
-            print("starting attack.")
+            print("starting operation.")
             junk_data = "a" * (exponent)
             with open("log1.bin", "w") as f:
                 f.write(junk_data)
